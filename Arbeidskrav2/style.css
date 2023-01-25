@@ -1,0 +1,67 @@
+:root {
+    --lightblue: #25dfe6;
+    --darkgrey: #707070;
+    --grey: #b8b8b8;
+}
+
+body {
+    background-color: white; 
+    padding: 2% 20%;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header h1 {
+    border: 1px solid var(--grey);
+    color: var(--darkgrey);
+    text-transform: uppercase;
+    padding: 2.5rem 2rem;
+    font-size: 2rem;
+}
+
+button {
+    font-size: 100%; 
+    width: 50%;
+    height: 30%;
+    color: var(--darkgrey);
+    padding: 1rem;
+}
+
+.activeBtn{
+    color: white;
+    background-color: var(--lightblue);
+    border: 2px solid var(--lightblue)
+}
+
+#buttons {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1%;
+}
+
+article {
+    border: 1px solid var(--grey);
+    border-top: 5px solid var(--lightblue);
+    padding: 1rem 2rem;
+}
+
+article p {
+    color: var(--darkgrey);
+    font-size: 20px;
+}
+
+ul {
+    padding: 0 17px;
+}
+
+ul li a {
+    color: var(--lightblue);
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+article h2 {
+    text-transform:  uppercase;
+    color: var(--darkgrey);
+
+}
