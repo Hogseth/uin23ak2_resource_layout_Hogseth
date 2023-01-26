@@ -109,11 +109,11 @@ function showArticle(buttonId) {
 
     resources.map(article => articleHTML = `
     <div id="buttons">
-    <button id="btn1" onclick="showArticle(1)">KATEGORI 1</button>
-    <button id="btn2" onclick="showArticle(2)">KATEGORI 2</button>
-    <button id="btn3" onclick="showArticle(3)">KATEGORI 3</button>
-    <button id="btn4" onclick="showArticle(4)">KATEGORI 4</button>
-    <button id="btn5" onclick="showArticle(5)">KATEGORI 5</button>
+    <button id="btn1" onclick="showArticle(1)">${resources[0].category}</button>
+    <button id="btn2" onclick="showArticle(2)">${resources[1].category}</button>
+    <button id="btn3" onclick="showArticle(3)">${resources[2].category}</button>
+    <button id="btn4" onclick="showArticle(4)">${resources[3].category}</button>
+    <button id="btn5" onclick="showArticle(5)">${resources[4].category}</button>
     </div>
     <article>
         <h2>${resources[index].category}</h2>

@@ -6,7 +6,7 @@
 
 body {
     background-color: white; 
-    padding: 2% 20%;
+    padding: 2% 10%;
     font-family: Arial, Helvetica, sans-serif;
 
 }
@@ -21,8 +21,8 @@ header h1 {
 
 button {
     font-size: 100%; 
-    width: 50%;
-    height: 30%;
+    width: 30%;
+    height: 20%;
     color: var(--darkgrey);
     padding: 1rem;
 }
@@ -36,7 +36,7 @@ button {
 #buttons {
     display: flex;
     justify-content: space-evenly;
-    gap: 1%;
+    gap: 5px;
 }
 
 article {
